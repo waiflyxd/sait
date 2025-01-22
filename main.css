@@ -1,0 +1,162 @@
+/* Body */
+
+body {
+    width: auto;
+    height: 850px;
+    background-image: url("photo/cowback.jpg");
+    backdrop-filter: blur(5px);
+
+}
+
+/* ____________ */
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header_logoandtext {
+    display: flex;
+    text-align: center;
+    
+    
+}
+
+.header__logo-img {
+    width: 50px;
+    height: 50px;
+    padding-top: 1rem;
+    margin-left: 1rem;
+    
+
+}
+
+a {
+    text-decoration: none;
+}
+.header__logotext-name {
+    font-size: 30px;
+    font-family: "jumbo";
+    color: black;
+    margin-left: 1rem;
+    
+}
+
+.header_keyboard-btn {
+    padding: 0.5rem 1rem;
+    height: 3rem;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+    opacity: 1;
+    position: relative;
+    font-family: "jumbo";
+    color: rgb(159, 159, 159);
+}
+
+.header_keyboard-btn:hover {
+    background-color: rgba(0, 85, 255, 0.54);
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #0258e3;
+  }
+/* ____________ */
+
+/* MAIN */
+
+.main {
+    justify-content: center;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.main__logo-text {
+    
+        text-transform: uppercase;
+       background-image: linear-gradient(
+         -225deg,
+         #000000 0%,
+         #3b3b3b 29%,
+         #767676 67%,
+         #ffffff 100%
+       );
+       background-size: auto auto;
+       background-clip: border-box;
+       background-size: 200% auto;
+       color: #fff;
+       background-clip: text;
+       text-fill-color: transparent;
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       animation: textclip 2s linear infinite;
+       display: inline-block;
+        font-size: 50px;
+        font-family: 'jumbo';
+     }
+     
+     @keyframes textclip {
+       to {
+         background-position: 200% center;
+       }
+     
+}
+
+.main__games-img {
+    width: 250px;
+    height: 200px;
+    padding-top: 1rem;
+
+}
+
+.main__box-games{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    
+}
+
+.main__box-logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.main__img-name {
+    font-style: italic;
+    font-family: "jumbo";
+    color: black;
+    font-size: larger;
+}
+
+.main__logo-imgone {
+    width: 150px;
+    height: 100px;
+    transform: scale(-1, 1);
+    
+}
+.main__logo-imgtwo{
+    width: 150px;
+    height: 100px;
+    padding-left: 1rem;
+}
+
+/* ____________ */
+
+/* FOOTER */
+
+
+
+/* ____________ */
+
+
+@font-face {
+    font-family: jumbo;
+    src: url('fonts/JUMBOJIM.TTF');
+}
+
+@font-face {
+    font-family: caviar;
+    src: url('fonts/caviar-dreams.ttf');
+}
