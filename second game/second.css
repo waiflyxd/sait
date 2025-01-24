@@ -1,0 +1,126 @@
+/* BODY */
+
+body {
+    height: 804px;
+    width: auto;
+    background-image: linear-gradient(rgb(163, 150, 133) , rgb(58, 58, 57));
+    color: white;
+    text-shadow: 0 0 20px blueviolet;
+    
+  }
+
+/* ____________ */
+
+/* Header */
+.header {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: left;
+   
+}
+
+.header_logoandtext {
+    display: flex;
+    text-align: left;
+    position: fixed;
+}
+
+.header__logo-img {
+    width: 50px;
+    height: 50px;
+    padding-top: 1rem;
+    margin-left: 1rem;
+
+}
+
+.header__logotext-name {
+    font-size: 30px;
+    font-family: "jumbo";
+    color: white;
+    margin-left: 1rem;
+}
+
+.header__moreorless {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 14%;
+margin-bottom: -4px;
+
+}
+.moreorless {
+    width: 200px;
+    height: 150px;
+
+}
+
+/* ____________ */
+
+/* MAIN */
+main{
+    width: auto;
+    height: 700px;
+}
+
+.main__box-table{
+    width: auto;
+    height: auto;
+    text-align: center;
+    justify-items: center;
+}
+.main__table-slots{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(108, 108, 108);
+    border: 1px solid black;
+    border-radius: 1rem;
+    font-family: jumbo;
+
+
+}
+ .main__stolb-el{
+    width: 45px;
+    height: 45px;
+ }
+
+#yes{
+    display: none;
+    width: 50px;
+    height: 50px;
+}
+#no{
+    display: none;
+    width: 50px;
+    height: 50px;
+}
+
+.main_button{
+    display: flex;
+    text-shadow: rgb(192, 255, 207);
+    justify-content: center;
+}
+
+.main_button-btn{
+    border-radius: 5rem;
+    background-color: rgb(255, 213, 213);
+    width: 200px;
+    height: 50px;
+    text-shadow: rgb(192, 255, 207);
+    font-family: caviar;
+   
+}
+
+/* ____________ */
+
+
+
+@font-face {
+    font-family: jumbo;
+    src: url('../fonts/JUMBOJIM.TTF');
+}
+
+@font-face {
+    font-family: caviar;
+    src: url('../fonts/caviar-dreams.ttf');
+}
